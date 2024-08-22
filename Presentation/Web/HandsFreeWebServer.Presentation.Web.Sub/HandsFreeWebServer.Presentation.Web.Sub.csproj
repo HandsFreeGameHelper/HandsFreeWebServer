@@ -12,14 +12,13 @@
 	<SubDomain>HandsFreeWebService</SubDomain>
 	<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
   </PropertyGroup>
-
-	
-	<ItemGroup>
-	  <PackageReference Include="HandsFree.Service.Core" Version="1.0.5" />
-	</ItemGroup>
 	
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="HandsFree.Service.Core" Version="1.0.5" />
 	</ItemGroup>
 	
 	<ItemGroup>

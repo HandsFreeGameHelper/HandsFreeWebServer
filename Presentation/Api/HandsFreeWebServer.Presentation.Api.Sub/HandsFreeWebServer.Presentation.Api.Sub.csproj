@@ -11,7 +11,6 @@
 		<DocumentationFile>..\HandsFreeWebServer.Presentation.Api\bin\net6.0\HandsFreeWebServer.Presentation.Api.Sub.xml</DocumentationFile>
 		<SubDomain>HandsFreeApiService</SubDomain>
 	</PropertyGroup>
-
 	
 	<ItemGroup>
 	  <PackageReference Include="HandsFree.Service.Core" Version="1.0.5" />
