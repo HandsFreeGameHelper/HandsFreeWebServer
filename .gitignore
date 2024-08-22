@@ -6,7 +6,7 @@ Application/Web/HandsFreeWebServer.Web.Application/bin/*
 Application/Web/HandsFreeWebServer.Web.Application/obj/*
 Application/Web/HandsFreeWebServer.Web.Application/.vs/*
 Domain/HandsFreeWebServer.Domain/bin/*
-Domain/HandsFreeWebServer.Domain/bin/*
+Domain/HandsFreeWebServer.Domain/obj/*
 Domain/HandsFreeWebServer.Domain/.vs/*
 Infrasturcture/HandsFreeWebServer.Infrastructure/bin/*
 Infrasturcture/HandsFreeWebServer.Infrastructure/obj/*
@@ -25,3 +25,7 @@ Presentation/Web/HandsFreeWebServer.Presentation.Web.Sub/obj/*
 Presentation/Web/HandsFreeWebServer.Presentation.Web.Sub/.vs/*
 Presentation/Web/HandsFreeWebServer.Presentation.Web/HandsFreeWebServer.Presentation.Web.csproj.user
 Presentation/Api/HandsFreeWebServer.Presentation.Api/HandsFreeWebServer.Presentation.Api.csproj.user
+Presentation/Api/HandsFreeWebServer.Presentation.Api/Properties/PublishProfiles/*
+Presentation/Web/HandsFreeWebServer.Presentation.Web/Properties/PublishProfiles/*
+
+

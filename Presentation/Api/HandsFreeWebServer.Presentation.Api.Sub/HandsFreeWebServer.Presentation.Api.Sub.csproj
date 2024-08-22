@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<OutputPath>..\HandsFreeWebServer.Presentation.Api\bin</OutputPath>
+		<DocumentationFile>..\HandsFreeWebServer.Presentation.Api\bin\net6.0\HandsFreeWebServer.Presentation.Api.Sub.xml</DocumentationFile>
+		<SubDomain>HandsFreeApiService</SubDomain>
+	</PropertyGroup>
+
+	
+	<ItemGroup>
+	  <PackageReference Include="HandsFree.Service.Core" Version="1.0.5" />
+	</ItemGroup>
+
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\Application\Api\HandsFreeWebServer.Api.Application\HandsFreeWebServer.Application.Api.csproj" />
+	</ItemGroup>
+	
+</Project>

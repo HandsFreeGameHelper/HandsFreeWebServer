@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	
+  <PropertyGroup>
+	<OutputPath>..\HandsFreeWebServer.Presentation.Web\bin</OutputPath>
+	<DocumentationFile>..\HandsFreeWebServer.Presentation.Web\bin\net6.0\HandsFreeWebServer.Presentation.Web.Sub.xml</DocumentationFile>
+	<SubDomain>HandsFreeWebService</SubDomain>
+	<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+
+	
+	<ItemGroup>
+	  <PackageReference Include="HandsFree.Service.Core" Version="1.0.5" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\Application\Web\HandsFreeWebServer.Web.Application\HandsFreeWebServer.Application.Web.csproj" />
+	  <ProjectReference Include="..\..\Api\HandsFreeWebServer.Presentation.Api.Sub\HandsFreeWebServer.Presentation.Api.Sub.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Content Update="wwwroot\js\app.js">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	  <Content Update="wwwroot\js\particles.js">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	</ItemGroup>
+
+</Project>

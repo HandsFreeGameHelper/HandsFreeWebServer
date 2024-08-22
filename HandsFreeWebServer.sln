@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DFA6B6D3-2FD5-471B-9544-F63EA298811D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{055D0CE0-4B8E-40E7-B9B2-02431BBEF13E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{163A7262-553F-460E-9C7F-FAB78B6C6B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D10424BF-41C5-42AF-B05D-9B81D232242A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Domain", "Domain\HandsFreeWebServer.Domain\HandsFreeWebServer.Domain.csproj", "{E1028135-A9AA-4230-913A-5A7B1FBA0373}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8FC1DE27-2498-4041-A702-D017ED024FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{6B09FE1B-A45F-4C30-825C-0683214EABA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Infrastructure", "Infrasturcture\HandsFreeWebServer.Infrastructure\HandsFreeWebServer.Infrastructure.csproj", "{278D44FA-6FFD-47CD-AFA7-5CC6B8CE2FF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Application.Api", "Application\Api\HandsFreeWebServer.Api.Application\HandsFreeWebServer.Application.Api.csproj", "{FED00096-30E3-46F2-B5B3-D02EEDF84688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Application.Web", "Application\Web\HandsFreeWebServer.Web.Application\HandsFreeWebServer.Application.Web.csproj", "{0D37D3A5-FB1B-44A9-87C7-D4299A686E93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{483CC0F2-3FCB-4313-A725-30FD2B9A3CBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{13349547-2BF5-4E80-BDFC-22CD4EF38EA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ECA68CB5-2CF2-48EE-B07F-473630626F25}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HandsFreeWebServer.Presentation.Shared", "Presentation\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.shproj", "{97038106-4663-4E3C-9E77-BA4CCEB59C24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Presentation.Web", "Presentation\Web\HandsFreeWebServer.Presentation.Web\HandsFreeWebServer.Presentation.Web.csproj", "{78511AEC-F12C-4AAF-930D-54811A972704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Presentation.Api.Sub", "Presentation\Api\HandsFreeWebServer.Presentation.Api.Sub\HandsFreeWebServer.Presentation.Api.Sub.csproj", "{39CB85E0-C132-4664-ACC4-537C969010A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Presentation.Web.Sub", "Presentation\Web\HandsFreeWebServer.Presentation.Web.Sub\HandsFreeWebServer.Presentation.Web.Sub.csproj", "{A6980A13-8ABD-402D-895C-393EEE1D5987}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Presentation.Api", "Presentation\Api\HandsFreeWebServer.Presentation.Api\HandsFreeWebServer.Presentation.Api.csproj", "{B1E07D42-61F3-4DDF-B709-F1FA406D3F69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1028135-A9AA-4230-913A-5A7B1FBA0373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1028135-A9AA-4230-913A-5A7B1FBA0373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1028135-A9AA-4230-913A-5A7B1FBA0373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1028135-A9AA-4230-913A-5A7B1FBA0373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278D44FA-6FFD-47CD-AFA7-5CC6B8CE2FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278D44FA-6FFD-47CD-AFA7-5CC6B8CE2FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278D44FA-6FFD-47CD-AFA7-5CC6B8CE2FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278D44FA-6FFD-47CD-AFA7-5CC6B8CE2FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED00096-30E3-46F2-B5B3-D02EEDF84688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED00096-30E3-46F2-B5B3-D02EEDF84688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED00096-30E3-46F2-B5B3-D02EEDF84688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED00096-30E3-46F2-B5B3-D02EEDF84688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D37D3A5-FB1B-44A9-87C7-D4299A686E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D37D3A5-FB1B-44A9-87C7-D4299A686E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D37D3A5-FB1B-44A9-87C7-D4299A686E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D37D3A5-FB1B-44A9-87C7-D4299A686E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78511AEC-F12C-4AAF-930D-54811A972704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78511AEC-F12C-4AAF-930D-54811A972704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78511AEC-F12C-4AAF-930D-54811A972704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78511AEC-F12C-4AAF-930D-54811A972704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CB85E0-C132-4664-ACC4-537C969010A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CB85E0-C132-4664-ACC4-537C969010A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CB85E0-C132-4664-ACC4-537C969010A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CB85E0-C132-4664-ACC4-537C969010A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6980A13-8ABD-402D-895C-393EEE1D5987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6980A13-8ABD-402D-895C-393EEE1D5987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6980A13-8ABD-402D-895C-393EEE1D5987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6980A13-8ABD-402D-895C-393EEE1D5987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E07D42-61F3-4DDF-B709-F1FA406D3F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E07D42-61F3-4DDF-B709-F1FA406D3F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E07D42-61F3-4DDF-B709-F1FA406D3F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E07D42-61F3-4DDF-B709-F1FA406D3F69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1028135-A9AA-4230-913A-5A7B1FBA0373} = {055D0CE0-4B8E-40E7-B9B2-02431BBEF13E}
+		{8FC1DE27-2498-4041-A702-D017ED024FEA} = {DFA6B6D3-2FD5-471B-9544-F63EA298811D}
+		{6B09FE1B-A45F-4C30-825C-0683214EABA2} = {DFA6B6D3-2FD5-471B-9544-F63EA298811D}
+		{278D44FA-6FFD-47CD-AFA7-5CC6B8CE2FF4} = {163A7262-553F-460E-9C7F-FAB78B6C6B2C}
+		{FED00096-30E3-46F2-B5B3-D02EEDF84688} = {6B09FE1B-A45F-4C30-825C-0683214EABA2}
+		{0D37D3A5-FB1B-44A9-87C7-D4299A686E93} = {8FC1DE27-2498-4041-A702-D017ED024FEA}
+		{483CC0F2-3FCB-4313-A725-30FD2B9A3CBD} = {D10424BF-41C5-42AF-B05D-9B81D232242A}
+		{13349547-2BF5-4E80-BDFC-22CD4EF38EA1} = {D10424BF-41C5-42AF-B05D-9B81D232242A}
+		{ECA68CB5-2CF2-48EE-B07F-473630626F25} = {D10424BF-41C5-42AF-B05D-9B81D232242A}
+		{97038106-4663-4E3C-9E77-BA4CCEB59C24} = {ECA68CB5-2CF2-48EE-B07F-473630626F25}
+		{78511AEC-F12C-4AAF-930D-54811A972704} = {483CC0F2-3FCB-4313-A725-30FD2B9A3CBD}
+		{39CB85E0-C132-4664-ACC4-537C969010A6} = {13349547-2BF5-4E80-BDFC-22CD4EF38EA1}
+		{A6980A13-8ABD-402D-895C-393EEE1D5987} = {483CC0F2-3FCB-4313-A725-30FD2B9A3CBD}
+		{B1E07D42-61F3-4DDF-B709-F1FA406D3F69} = {13349547-2BF5-4E80-BDFC-22CD4EF38EA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4064B74-DCD0-43EF-99F0-64E97CC20F0E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Presentation\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.projitems*{78511aec-f12c-4aaf-930d-54811a972704}*SharedItemsImports = 5
+		Presentation\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.projitems*{97038106-4663-4e3c-9e77-ba4cceb59c24}*SharedItemsImports = 13
+		Presentation\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.projitems*{b1e07d42-61f3-4ddf-b709-f1fa406d3f69}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
