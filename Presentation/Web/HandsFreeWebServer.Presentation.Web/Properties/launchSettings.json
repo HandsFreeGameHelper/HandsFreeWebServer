@@ -3,7 +3,7 @@
         "windowsAuthentication": false,
         "anonymousAuthentication": true,
         "iisExpress": {
-            "applicationUrl": "http://www.bxy.life:8470",
+            "applicationUrl": "http://localhost:8470",
             "sslPort": 44344
         }
     },
@@ -12,11 +12,11 @@
             "commandName": "Project",
             "dotnetRunMessages": true,
             "launchBrowser": true,
-            "launchUrl": "https://www.bxy.life:7070/Web_Index/",
+            "launchUrl": "https://localhost:7070/Web_Index/",
             "environmentVariables": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
-            "applicationUrl": "https://www.bxy.life:7070;http://www.bxy.life:5234"
+            "applicationUrl": "https://localhost:7070;http://localhost:5234"
         },
         "IIS Express": {
             "commandName": "IISExpress",
