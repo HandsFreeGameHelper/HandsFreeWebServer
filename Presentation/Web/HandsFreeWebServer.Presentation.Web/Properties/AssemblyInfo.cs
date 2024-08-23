@@ -2,5 +2,5 @@
 using HandsFree.Domain.Core.Data;
 using HandsFree.Service.Core.Mvc;
 
-[assembly: SubDomain("HandsFreeWebService")]
+[assembly: SubDomain("Main")]
 [assembly: DbContextOnly(typeof(IHandsFreeServiceDbContext))]

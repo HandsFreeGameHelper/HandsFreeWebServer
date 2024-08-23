@@ -12,7 +12,7 @@
             "commandName": "Project",
             "dotnetRunMessages": true,
             "launchBrowser": true,
-            "launchUrl": "https://localhost:7070/Web_Index/",
+            "launchUrl": "https://localhost:7070/Main/Web_Index/",
             "environmentVariables": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },

@@ -1514,6 +1514,7 @@ window.particlesJS = function(tag_id, params){
   canvas_el.style.top = "50px";
   canvas_el.style.left = "0";
   canvas_el.style.zIndex = "-1";
+    
 
   /* append canvas */
   var canvas = document.getElementById(tag_id).appendChild(canvas_el);

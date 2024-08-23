@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HandsFreeWebServer.Presentation.Web.Sub.Pages.Web_Index
+namespace HandsFreeWebServer.Presentation.Web.Sub.Areas.Main.Pages.Web_Index
 {
     /// <summary>
     /// 
@@ -15,6 +15,6 @@ namespace HandsFreeWebServer.Presentation.Web.Sub.Pages.Web_Index
         /// 
         /// </summary>
         public List<Api.Controllers.Models.Api_WeatherForecast.ResponseDataModel> ResponseDataModel { get; set; } = new();
-        
+
     }
 }

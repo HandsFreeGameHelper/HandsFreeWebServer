@@ -34,12 +34,22 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-    <Content Update="wwwroot\js\particles.js">
+    <Content Update="wwwroot\Main\js\particles.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\Main\_content\css\site.css">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
-
+	
+  <ItemGroup>
+    <Folder Include="wwwroot\Main\_content\js\" />
+  </ItemGroup>
+	
+  <Import Project="..\..\Shared\HandsFreeWebServer.Presentation.Web.Shared\HandsFreeWebServer.Presentation.Web.Shared.projitems" Label="Shared" />
+	
   <Import Project="..\..\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.projitems" Label="Shared" />
 
 </Project>

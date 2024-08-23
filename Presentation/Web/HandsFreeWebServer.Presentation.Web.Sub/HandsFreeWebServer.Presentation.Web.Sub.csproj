@@ -9,7 +9,7 @@
   <PropertyGroup>
 	<OutputPath>..\HandsFreeWebServer.Presentation.Web\bin</OutputPath>
 	<DocumentationFile>..\HandsFreeWebServer.Presentation.Web\bin\net6.0\HandsFreeWebServer.Presentation.Web.Sub.xml</DocumentationFile>
-	<SubDomain>HandsFreeWebService</SubDomain>
+	 <SubDomain>FO2</SubDomain>
 	<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
   </PropertyGroup>
 	
@@ -27,14 +27,7 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-	  <Content Update="wwwroot\js\app.js">
-	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-	  </Content>
-	  <Content Update="wwwroot\js\particles.js">
-	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-	  </Content>
+	  <Folder Include="wwwroot\js\" />
 	</ItemGroup>
 
 </Project>

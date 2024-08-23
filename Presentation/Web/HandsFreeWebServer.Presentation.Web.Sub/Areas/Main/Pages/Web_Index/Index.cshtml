@@ -1,10 +1,11 @@
 ﻿@page
-@using HandsFreeWebServer.Presentation.Web.Sub.Pages.Web_Index;
+@using HandsFreeWebServer.Presentation.Web.Sub.Areas.Main.Pages.Web_Index;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    Layout = "_Main";
 }
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/Main/lib/bootstrap/dist/css/bootstrap.min.css" />
 <div class="text-center" style="overflow-x: auto;" id="particles-js">
     <h1 class="display-4">Welcome</h1>
     @foreach (var response in Model.IndexViewModel.ResponseDataModel)
@@ -30,5 +31,5 @@
     } 
 </div>
 <!-- scripts -->
-<script type="text/javascript" src="~/js/particles.js"></script>
-<script type="text/javascript" src="~/js/app.js"></script>
+<script type="text/javascript" src="~/Main/js/particles.js"></script>
+<script type="text/javascript" src="~/Main/js/app.js"></script>

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace HandsFreeWebServer.Presentation.Web.Sub.Pages.Web_Index
+namespace HandsFreeWebServer.Presentation.Web.Sub.Areas.Main.Pages.Web_Index
 {
     /// <summary>
     /// 

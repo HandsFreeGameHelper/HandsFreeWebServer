@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Presenta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandsFreeWebServer.Presentation.Api", "Presentation\Api\HandsFreeWebServer.Presentation.Api\HandsFreeWebServer.Presentation.Api.csproj", "{B1E07D42-61F3-4DDF-B709-F1FA406D3F69}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HandsFreeWebServer.Presentation.Web.Shared", "Presentation\Shared\HandsFreeWebServer.Presentation.Web.Shared\HandsFreeWebServer.Presentation.Web.Shared.shproj", "{973F22D4-4E8A-4159-BE44-DC8380E97F1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,13 +98,16 @@ Global
 		{39CB85E0-C132-4664-ACC4-537C969010A6} = {13349547-2BF5-4E80-BDFC-22CD4EF38EA1}
 		{A6980A13-8ABD-402D-895C-393EEE1D5987} = {483CC0F2-3FCB-4313-A725-30FD2B9A3CBD}
 		{B1E07D42-61F3-4DDF-B709-F1FA406D3F69} = {13349547-2BF5-4E80-BDFC-22CD4EF38EA1}
+		{973F22D4-4E8A-4159-BE44-DC8380E97F1A} = {ECA68CB5-2CF2-48EE-B07F-473630626F25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4064B74-DCD0-43EF-99F0-64E97CC20F0E}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Presentation\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.projitems*{78511aec-f12c-4aaf-930d-54811a972704}*SharedItemsImports = 5
+		Presentation\Shared\HandsFreeWebServer.Presentation.Web.Shared\HandsFreeWebServer.Presentation.Web.Shared.projitems*{78511aec-f12c-4aaf-930d-54811a972704}*SharedItemsImports = 5
 		Presentation\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.projitems*{97038106-4663-4e3c-9e77-ba4cceb59c24}*SharedItemsImports = 13
+		Presentation\Shared\HandsFreeWebServer.Presentation.Web.Shared\HandsFreeWebServer.Presentation.Web.Shared.projitems*{973f22d4-4e8a-4159-be44-dc8380e97f1a}*SharedItemsImports = 13
 		Presentation\Shared\HandsFreeWebServer.Presentation.Shared\HandsFreeWebServer.Presentation.Shared.projitems*{b1e07d42-61f3-4ddf-b709-f1fa406d3f69}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
